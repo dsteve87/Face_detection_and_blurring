@@ -23,7 +23,7 @@ Ce projet combine la puissance de **[YOLO](https://github.com/ultralytics/ultral
 
 ## 🧾 Résultats
 
-Les résultats actuellement disponibles dans le dossier **`test/`** ont été générés **uniquement à partir du modèle YOLO**,  
+Les résultats actuellement disponibles dans le dossier **`Test_video/`** ont été générés **uniquement à partir du modèle YOLO**,  
 car les ressources matérielles actuelles (GPU/VRAM) ne permettent pas encore d’effectuer **de manière fluide des inférences vidéo**  
 en combinant simultanément **YOLO** et **SAM ViT-B**.
 
