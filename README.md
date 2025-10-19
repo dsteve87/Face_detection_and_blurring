@@ -21,11 +21,15 @@ Ce projet combine la puissance de **[YOLO](https://github.com/ultralytics/ultral
 
 ---
 
-🧾 Résultats
+## 🧾 Résultats
 
-Les résultats actuellement disponibles dans le dossier test/ ont été générés uniquement à partir du modèle YOLO,
-car les ressources matérielles actuelles (GPU/VRAM) ne permettent pas encore de réaliser des inférences combinant
-YOLO et SAM ViT-B simultanément.
+Les résultats actuellement disponibles dans le dossier **`test/`** ont été générés **uniquement à partir du modèle YOLO**,  
+car les ressources matérielles actuelles (GPU/VRAM) ne permettent pas encore d’effectuer **de manière fluide des inférences vidéo**  
+en combinant simultanément **YOLO** et **SAM ViT-B**.
+
+Cependant, nous avons pu **réaliser avec succès des tests sur des images individuelles**,  
+et les résultats confirment que **l’intégration YOLO + SAM fonctionne correctement** pour la détection et le floutage précis des visages.
+
 
 🧠 Une version complète combinant les deux modèles sera ajoutée dès que des ressources matérielles plus puissantes seront disponibles.
 ---
