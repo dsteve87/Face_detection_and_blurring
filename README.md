@@ -1,5 +1,3 @@
-# Face_detection_and_blurring
-
 # 🧠 YOLO + SAM : Détection et Floutage Automatique des Visages
 
 Ce projet combine la puissance de **[YOLO](https://github.com/ultralytics/ultralytics)** pour la détection des visages et **[Segment Anything (SAM)](https://github.com/facebookresearch/segment-anything)** pour la segmentation précise, afin de flouter automatiquement les visages dans des **images** ou **vidéos**.
@@ -24,3 +22,11 @@ Installez les dépendances nécessaires avec :
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install ultralytics opencv-python matplotlib numpy segment-anything
+
+## Poids des modèles:
+
+| Modèle            | Description                              | Lien de téléchargement                                                                  |
+| ----------------- | ---------------------------------------- | --------------------------------------------------------------------------------------- |
+| **YOLOv11n-Face** | Détection rapide et précise des visages  | [Télécharger ici](https://github.com/ultralytics/assets/releases)                       |
+| **SAM ViT-B**     | Segmentation précise des zones détectées | [Télécharger ici](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth) |
+
