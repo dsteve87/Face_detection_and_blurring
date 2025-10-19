@@ -32,8 +32,5 @@ wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov11n-fac
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth -O sam_vit_b_01ec64.pth
 
 
-| Modèle            | Description                              | Lien de téléchargement                                                                  |
-| ----------------- | ---------------------------------------- | --------------------------------------------------------------------------------------- |
-| **YOLOv11n-Face** | Détection rapide et précise des visages  | [Télécharger ici](https://github.com/ultralytics/assets/releases)                       |
-| **SAM ViT-B**     | Segmentation précise des zones détectées | [Télécharger ici](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth) |
+
 
