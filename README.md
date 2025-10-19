@@ -30,8 +30,6 @@ en combinant simultanément **YOLO** et **SAM ViT-B**.
 Cependant, nous avons pu **réaliser avec succès des tests sur des images individuelles**,  
 et les résultats confirment que **l’intégration YOLO + SAM fonctionne correctement** pour la détection et le floutage précis des visages.
 
-
-🧠 Une version complète combinant les deux modèles sera ajoutée dès que des ressources matérielles plus puissantes seront disponibles.
 ---
 
 ## 🧩 Dépendances
@@ -50,7 +48,7 @@ wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov11n-fac
 
 # Téléchargement du modèle SAM ViT-B
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth -O sam_vit_b_01ec64.pth
-
+```
 ---
 
 
