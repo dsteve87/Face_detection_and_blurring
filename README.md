@@ -38,6 +38,14 @@ wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov11n-fac
 # Téléchargement du modèle SAM ViT-B
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth -O sam_vit_b_01ec64.pth
 
+---
+🧾 Résultats
+
+Les résultats actuellement disponibles dans le dossier test/ ont été générés uniquement à partir du modèle YOLO,
+car les ressources matérielles actuelles (GPU/VRAM) ne permettent pas encore de réaliser des inférences combinant
+YOLO et SAM ViT-B simultanément.
+
+🧠 Une version complète combinant les deux modèles sera ajoutée dès que des ressources matérielles plus puissantes seront disponibles.
 
 
 
