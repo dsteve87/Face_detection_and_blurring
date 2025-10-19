@@ -3,6 +3,13 @@
 Ce projet combine la puissance de **[YOLO](https://github.com/ultralytics/ultralytics)** pour la détection des visages et **[Segment Anything (SAM)](https://github.com/facebookresearch/segment-anything)** pour la segmentation précise, afin de flouter automatiquement les visages dans des **images** ou **vidéos**.
 
 ---
+## 🤝 Contributeurs
+
+👩‍💻 STEVE DONFACK (https://www.linkedin.com/in/steve-don/)
+
+👨‍💻 TAMDJO CHRISTIAN (https://www.linkedin.com/in/christian-dior-tamdjo/)
+
+---
 
 ## 🚀 Fonctionnalités
 
