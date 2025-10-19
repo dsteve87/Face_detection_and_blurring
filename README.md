@@ -1,6 +1,6 @@
 # 🧠 YOLO + SAM : Détection et Floutage Automatique des Visages
 
-Ce projet combine la puissance de **[YOLO](https://github.com/ultralytics/ultralytics)** pour la détection des visages et **[Segment Anything (SAM)](https://github.com/facebookresearch/segment-anything)** pour la segmentation précise, afin de flouter automatiquement les visages dans des **images** ou **vidéos**.
+Ce projet combine la puissance de **[YOLO](https://github.com/ultralytics/ultralytics)** pour la détection et le tracking des visages et **[Segment Anything (SAM)](https://github.com/facebookresearch/segment-anything)** pour la segmentation précise, afin de flouter automatiquement les visages dans des **images** ou **vidéos**.
 
 ---
 ## 🤝 Contributeurs
@@ -13,7 +13,7 @@ Ce projet combine la puissance de **[YOLO](https://github.com/ultralytics/ultral
 
 ## 🚀 Fonctionnalités
 
-- 🔍 **Détection précise** des visages via YOLOv11  
+- 🔍 **Détection précise et tracking** des visages via YOLOv11  
 - ✂️ **Segmentation fine** avec SAM (Segment Anything)  
 - 🧼 **Floutage automatique** des visages détectés  
 - 🖼️ Prise en charge des **images** et **vidéos**  
