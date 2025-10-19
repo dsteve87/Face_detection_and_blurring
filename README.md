@@ -25,6 +25,13 @@ pip install ultralytics opencv-python matplotlib numpy segment-anything
 
 ## Poids des modèles:
 
+# Téléchargement du modèle YOLOv11n-Face
+wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov11n-face.pt -O yolov11n-face.pt
+
+# Téléchargement du modèle SAM ViT-B
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth -O sam_vit_b_01ec64.pth
+
+
 | Modèle            | Description                              | Lien de téléchargement                                                                  |
 | ----------------- | ---------------------------------------- | --------------------------------------------------------------------------------------- |
 | **YOLOv11n-Face** | Détection rapide et précise des visages  | [Télécharger ici](https://github.com/ultralytics/assets/releases)                       |
